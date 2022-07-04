@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfButtonPanel.App"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Icon="/color_palette_brush_paint_icon_193916.ico">
     <Window.Resources>
         <ResourceDictionary Source="Style.xaml"/>
     </Window.Resources>
@@ -15,7 +15,7 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <DockPanel LastChildFill="True">
-            <StackPanel Orientation="Horizontal" Margin="2">
+            <StackPanel Orientation="Horizontal">
                 <Button x:Name="Navy" 
                     Content="Navy"
                     Style="{DynamicResource ResourceKey=Default}"

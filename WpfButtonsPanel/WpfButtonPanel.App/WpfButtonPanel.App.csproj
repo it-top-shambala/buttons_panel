@@ -7,4 +7,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="color_palette_brush_paint_icon_193916.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="color_palette_brush_paint_icon_193916.ico" />
+  </ItemGroup>
+
 </Project>

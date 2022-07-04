@@ -4,7 +4,7 @@
     <Style x:Key="Default" TargetType="Button">
         <Setter Property="FontFamily" Value="Arial"/>
         <Setter Property="FontSize" Value="18"/>
-        <Setter Property="Margin" Value="0,2,2,2"/>
+        <Setter Property="Margin" Value="2"/>
         <Setter Property="HorizontalAlignment" Value="Left"/>
         <Setter Property="VerticalAlignment" Value="Top"/>
 
