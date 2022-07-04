@@ -1,0 +1,39 @@
+﻿<Window x:Class="buttons_panel.App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:buttons_panel.App"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="450">
+    
+    <Window.Resources>
+        <ResourceDictionary Source="Style.xaml"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>             
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        
+    <WrapPanel Grid.Column="0" Grid.ColumnSpan="2">
+        <Button Content="Navy" Style="{StaticResource Style_Default}" Foreground="Navy"/>
+        <Button Content="Blue" Style="{StaticResource Style_Default}" Foreground="Blue"/>
+        <Button Content="Aqua" Style="{StaticResource Style_Default}" Foreground="Aqua"/>
+        <Button Content="Teal" Style="{StaticResource Style_Default}" Foreground="Teal"/>
+        <Button Content="Olive" Style="{StaticResource Style_Default}" Foreground="Olive"/>
+        <Button Content="Green" Style="{StaticResource Style_Default}" Foreground="Green"/>
+        <Button Content="Lime" Style="{StaticResource Style_Default}" Foreground="Lime"/>
+        <Button Content="Yellow" Style="{StaticResource Style_Default}" Foreground="Yellow"/>
+        <Button Content="Orange" Style="{StaticResource Style_Default}" Foreground="Orange"/>
+        <Button Content="Red" Style="{StaticResource Style_Default}" Foreground="Red"/>
+        <Button Content="Maroon" Style="{StaticResource Style_Default}" Foreground="Maroon"/>
+        <Button Content="Fuchsia" Style="{StaticResource Style_Default}" Foreground="Fuchsia"/>
+        <Button Content="Black" Style="{StaticResource Style_Default}" Foreground="Black"/>
+        <Button Content="Silver" Style="{StaticResource Style_Default}" Foreground="Silver"/>
+        <Button Content="Gray" Style="{StaticResource Style_Default}" Foreground="Gray"/>
+        <Button Content="White" Style="{StaticResource Style_Default}" Foreground="White"/>
+    </WrapPanel>
+    </Grid>
+</Window>
