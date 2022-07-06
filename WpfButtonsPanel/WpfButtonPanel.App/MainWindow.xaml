@@ -1,0 +1,110 @@
+﻿<Window x:Class="WpfButtonPanel.App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfButtonPanel.App"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Icon="/color_palette_brush_paint_icon_193916.ico">
+    <Window.Resources>
+        <ResourceDictionary Source="Style.xaml"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <DockPanel LastChildFill="True">
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="Navy" 
+                    Content="Navy"
+                    Style="{DynamicResource ResourceKey=Default}"
+                    Foreground="Navy"/>
+
+            <Button x:Name="Blue"
+                Content="Blue" 
+                Style="{DynamicResource ResourceKey=Default}" 
+                Foreground="Blue"/>
+
+            <Button x:Name="Aqua"
+                Content="Agua" 
+                Style="{DynamicResource ResourceKey=Default}" 
+                Foreground="Aqua"/>
+
+            <Button x:Name="Teal"
+                Content="Teal" 
+                Style="{DynamicResource ResourceKey=Default}" 
+                Foreground="Teal"/>
+
+            <Button x:Name="Olive"
+                Content="Olive" 
+                Style="{DynamicResource ResourceKey=Default}" 
+                Foreground="Olive"/>
+
+            <Button x:Name="Green"
+                Content="Green" 
+                Style="{DynamicResource ResourceKey=Default}" 
+                Foreground="Green"/>
+
+            <Button x:Name="Lime"
+                Content="Lime" 
+                Style="{DynamicResource ResourceKey=Default}" 
+                Foreground="Lime"/>
+
+            <Button x:Name="Yellow"
+                Content="Yellow" 
+                Style="{DynamicResource ResourceKey=Default}" 
+                Foreground="Yellow"/>
+
+            <Button x:Name="Orange"
+                Content="Orange" 
+                Style="{DynamicResource ResourceKey=Default}" 
+                Foreground="Orange"/>
+
+            <Button x:Name="Red"
+                Content="Red" 
+                Style="{DynamicResource ResourceKey=Default}" 
+                Foreground="Red"/>
+
+            <Button x:Name="Maroon"
+                Content="Maroon" 
+                Style="{DynamicResource ResourceKey=Default}" 
+                Foreground="Maroon"/>
+
+            <Button x:Name="Fuchsia"
+                Content="Fuchsia" 
+                Style="{DynamicResource ResourceKey=Default}" 
+                Foreground="Fuchsia"/>
+
+            <Button x:Name="Purple"
+                Content="Purple" 
+                Style="{DynamicResource ResourceKey=Default}" 
+                Foreground="Purple"/>
+
+            <Button x:Name="Black"
+                Content="Black" 
+                Style="{DynamicResource ResourceKey=Default}" 
+                Foreground="Black"/>
+
+            <Button x:Name="Silver"
+                Content="Silver" 
+                Style="{DynamicResource ResourceKey=Default}" 
+                Foreground="Silver"/>
+
+            <Button x:Name="Gray"
+                Content="Gray" 
+                Style="{DynamicResource ResourceKey=Default}" 
+                Foreground="Gray"/>
+
+            <Button x:Name="White"
+                Content="White" 
+                Style="{DynamicResource ResourceKey=Default}" 
+                Foreground="White"/>
+            </StackPanel>
+            
+
+
+        </DockPanel>
+
+    </Grid>
+</Window>
